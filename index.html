@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hogwarts</h1>
+    </header>
+    <main>
+      <section id="promosContainer"></section>
+      <section id="formAddPromos">
+        <form>
+          <div>
+            <label for="name">Nom de la Promo</label>
+            <input id="name" type="text" />
+          </div>
+          <div>
+            <label for="startDate">Date de début de la promo</label>
+            <input id="startDate" type="date" />
+          </div>
+          <div>
+            <label for="endDate">Date de fin de la promo</label>
+            <input id="endDate" type="date" />
+          </div>
+        </form>
+        <button onclick="addPromo()">Ajouter Promo</button>
+      </section>
+    </main>
+    <footer>
+        <p>©️ Amiiraa</p>
+      </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

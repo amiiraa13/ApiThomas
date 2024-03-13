@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/student.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Liste Des Etudiants</h1>
+    </header>
+    <main>
+      <section>
+        <div id="studentContainer"></div>
+        <div id="formAddStudent"></div>
+        <form>
+          <div>
+            <label for="firstName">Nom </label>
+            <input id="firstName" type="text" />
+          </div>
+          <div>
+            <label for="lastName">Prénom</label>
+            <input id="lastName" type="text" />
+          </div>
+          <div>
+            <label for="age">Age</label>
+            <input id="age" type="number" />
+          </div>
+        </form>
+        <button onclick="addStudents()">Ajouter Etudiants</button>
+      </section>
+    </main>
+    <footer>
+      <p>©️ Amiiraa</p>
+    </footer>
+    <script src="./assets/js/student.js"></script>
+  </body>
+</html>
